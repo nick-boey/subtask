@@ -2,27 +2,37 @@
 	import type { fromJSON } from 'postcss';
 
 	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
-	import { IconSettings } from '@tabler/icons-svelte';
-	import { IconMenu2 } from '@tabler/icons-svelte';
+	import { IconSettings, IconMenu2 } from '@tabler/icons-svelte';
+
+	import Sidebar from '$lib/components/Sidebar.svelte';
+	import Body from '$lib/components/Body.svelte';
+
+	// Load tasks
 </script>
 
 <AppShell>
+	<!-- Header -->
 	<svelte:fragment slot="header">
 		<AppBar gridColumns="grid-cols-3" slotDefault="place-self-center" slotTrail="place-content-end">
-			<svelte:fragment slot="lead">(icon)</svelte:fragment>
+			<svelte:fragment slot="lead">
+				<button class="btn-icon btn-icon-sm variant-ringed"><IconMenu2 /></button>
+			</svelte:fragment>
 			Subtask
-			<svelte:fragment slot="trail"><IconSettings /></svelte:fragment>
+			<svelte:fragment slot="trail">
+				<button class="btn-icon btn-icon-sm variant-ringed">
+					<IconSettings />
+				</button>
+			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
 
+	<!-- Sidebar -->
 	<svelte:fragment slot="sidebarLeft">
-		<!-- Hidden below Tailwind's large breakpoint -->
-		<div id="sidebar-left" class="hidden lg:block m-4">
-			<button class="btn variant-filled">Test skeleton button</button>
-		</div>
+		<Sidebar />
 	</svelte:fragment>
 
+	<!-- Body -->
 	<slot>
-		<h1>Hello world!</h1>
+		<Body />
 	</slot>
 </AppShell>
