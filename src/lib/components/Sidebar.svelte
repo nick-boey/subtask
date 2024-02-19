@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<div id="sidebar-left" class="flex flex-col p-4 h-full w-[200px]">
+<div id="sidebar-left" class="flex flex-col h-full w-[200px]">
   <div class="text-sm mb-4">Dives</div>
 	<button class="btn variant-filled-primary mb-4">Shallow</button>
   <button class="btn variant-filled-secondary mb-4">Mid</button>
