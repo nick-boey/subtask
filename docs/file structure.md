@@ -15,7 +15,7 @@ _emails\
 unfiled_email.msg
 ```
 
-# `_data\data.json`
+## `_data\data.json`
 
 Subtask stores tasks using JSON in the `data.json` file.
 
@@ -31,7 +31,7 @@ Subtask stores tasks using JSON in the `data.json` file.
 
 `roles` and `emails` contains any number of roles and emails as defined in the schema below.
 
-## `roles`
+### `roles`
 
 ```JSON
 {
@@ -64,7 +64,7 @@ Subtask stores tasks using JSON in the `data.json` file.
 
 Any task can contain any number of `task`s in `subtasks` and any number of `email`s in `emails`
 
-## `email`
+### `email`
 
 ```JSON
 {
@@ -78,7 +78,7 @@ Any task can contain any number of `task`s in `subtasks` and any number of `emai
   "aconex_link": "https://au1.aconex.com.au/link_to_aconex"
 }
 ```
-# `_data\settings.json`
+## `_data\settings.json`
 
 Settings are stored here for all application features.
 
