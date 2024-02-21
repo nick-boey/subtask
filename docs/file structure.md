@@ -40,18 +40,18 @@ Subtask stores tasks using JSON in the `data.json` file.
   "color": "#FF0000",
   "tasks": [tasks]
 }
-````
+```
 
 `tasks` contains any number of `task`s in an array.
 
-## `task`
+### `task`
 
 ```JSON
 {
   "id": "task-3940-20f9-2340f-2340f",
   "task": "Create new task management software",
   "due": ["2024-01-19", "2024-01-20", "2024-02-05"],
-  "type": "u-n-i", // u-i, n-u-i, u-n-i, n-u-n-i
+  "type": "u-n-i", // 
   "tags": ["#software", "#productivity"],
   "complete": "2024-02-08",
   "delegated_to": "",
@@ -61,8 +61,11 @@ Subtask stores tasks using JSON in the `data.json` file.
   "notes": "Any valid **Markdown** can be used for notes"
 }
 ```
-
 Any task can contain any number of `task`s in `subtasks` and any number of `email`s in `emails`
+
+#### Type options
+`type` can be `u-i`, `n-u-i`, `u-n-i`, or `n-u-n-i` to describe `urgent-important`, `not-urgent-important`, `urgent-not-important` and `not-urgent-not-important`.
+
 
 ### `email`
 
