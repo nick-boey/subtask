@@ -1,0 +1,61 @@
+{
+	"first_name": "Nick",
+	"last_name": "Boey",
+	"roles": [
+		{
+			"id": "r-b834769a-4ed1-4fc1-ac53-a70dce95e45f",
+			"name": "Engineer",
+			"color": "warning",
+			"tasks": [
+				{
+					"id": "task-3940-20f9-2340f-2340f",
+					"name": "Create new task management software",
+					"due": ["2024-02-05"],
+					"type": "u-i",
+					"tags": ["#software", "#productivity"],
+					"completed": "",
+					"delegated_to": "",
+					"emails": [],
+					"attachments": [],
+					"subtasks": [
+						{
+							"id": "task-3940-20f9-2340f-2340f",
+							"name": "Learn Svelte",
+							"due": ["2024-01-20"],
+							"type": "u-i",
+							"tags": ["#software", "#productivity"],
+							"completed": "",
+							"delegated_to": "",
+							"emails": [],
+							"attachments": [],
+							"subtasks": [],
+              "notes": "Have a look at svelte.dev"
+						},
+						{
+							"id": "task-3940-20f9-2340f-2340f",
+							"name": "Create Skeleton app using Tauri",
+							"due": ["2024-02-05"],
+							"type": "u-n-i",
+							"tags": ["#software", "#productivity"],
+							"completed": "2024-02-08",
+							"delegated_to": "",
+							"emails": [],
+							"attachments": [],
+							"subtasks": [],
+              "notes": "Tauri is a Rust framework for building web apps"
+						}
+					],
+					"notes": "Any valid **Markdown** can be used for notes"
+				}
+			]
+		},
+    {
+      "id": "r-af39d684-ad8b-4952-a45a-f4611f996c3a",
+      "name": "Manager",
+      "color": "success",
+      "tasks": []
+    }
+	],
+	"unfiled_emails": [],
+	"settings": {}
+}
