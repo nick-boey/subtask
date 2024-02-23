@@ -112,5 +112,21 @@
 		"transition",
 		"width",
 		"zIndex"
-	]
+	],
+	"files.exclude": {
+		".svelte-kit": true,
+		".eslintignore": true,
+		".eslintrc.cjs": true,
+		".npmrc": true,
+		".prettierignore": true,
+		".prettierrc": true,
+		"src-tauri": true,
+		"package-lock.json": true,
+		"src/lib/index.ts": true,
+		"src/routes/+layout.svelte": true,
+		"src/routes/+layout.ts": true,
+		"*config*": true,
+		"**/*.html": true,
+		"node_modules": true
+	}
 }
