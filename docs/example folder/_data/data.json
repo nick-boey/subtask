@@ -8,7 +8,7 @@
 			"color": "warning",
 			"tasks": [
 				{
-					"id": "task-3940-20f9-2340f-2340f",
+					"id": "t-fc7ad87d-09fb-495c-a4b1-b39af23442f8",
 					"name": "Create new task management software",
 					"due": ["2024-02-05"],
 					"type": "u-i",
@@ -19,7 +19,7 @@
 					"attachments": [],
 					"subtasks": [
 						{
-							"id": "task-3940-20f9-2340f-2340f",
+							"id": "t-462105a4-bd8a-42bc-9216-99522fab0f4f",
 							"name": "Learn Svelte",
 							"due": ["2024-01-20"],
 							"type": "u-i",
@@ -32,7 +32,7 @@
               "notes": "Have a look at svelte.dev"
 						},
 						{
-							"id": "task-3940-20f9-2340f-2340f",
+							"id": "t-6969498b-b450-4bee-adeb-a6bed41b402e",
 							"name": "Create Skeleton app using Tauri",
 							"due": ["2024-02-05"],
 							"type": "u-n-i",
