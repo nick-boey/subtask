@@ -120,7 +120,6 @@
 		".npmrc": true,
 		".prettierignore": true,
 		".prettierrc": true,
-		"src-tauri": true,
 		"package-lock.json": true,
 		"src/lib/index.ts": true,
 		"src/routes/+layout.svelte": true,

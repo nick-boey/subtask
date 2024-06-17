@@ -25,6 +25,9 @@
 				"renameFile": true,
 				"exists": true,
 				"scope": ["*/**"]
+			},
+			"dialog": {
+				"open": true
 			}
 		},
 		"bundle": {

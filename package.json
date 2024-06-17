@@ -20,6 +20,7 @@
 		"@sveltejs/kit": "^1.27.6",
 		"@tailwindcss/forms": "^0.5.7",
 		"@tauri-apps/cli": "^1.5.6",
+		"@types/lodash": "^4.14.202",
 		"@types/node": "20.9.4",
 		"@typescript-eslint/eslint-plugin": "^6.12.0",
 		"@typescript-eslint/parser": "^6.12.0",
@@ -42,6 +43,7 @@
 	"type": "module",
 	"dependencies": {
 		"@tabler/icons-svelte": "^2.47.0",
-		"@tauri-apps/api": "^1.5.1"
+		"@tauri-apps/api": "^1.5.1",
+		"lodash": "^4.17.21"
 	}
 }
